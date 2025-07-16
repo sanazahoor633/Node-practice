@@ -19,7 +19,7 @@ const userData = await User.create({
 username, email, password: hashPassword
 })
 
-// console.log(userData);
+console.log(userData);
 res.status(200).json({user: userData})
 d
 
